@@ -5,7 +5,7 @@ class CreateAdmins < ActiveRecord::Migration[5.1]
       t.string "first_name",:limit => 30
       t.string "last name", :limit => 30
       t.string "email", :default => '', :null => false
-      t.string "password",:limit => 40
+      t.string "password" ,:limit => 40
       t.timestamps
 
     end
